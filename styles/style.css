@@ -77,9 +77,7 @@ main section{
     gap: 73px;
    
 }
-.team{
-    
-}
+
 .team-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -124,9 +122,7 @@ margin-bottom: 20px;
 font-size: 16px;
 color: #727272;
 }
-.section-features{
-   
-}
+
 .features h1{
     font-weight: 700;
 font-size: 45px;
@@ -164,6 +160,9 @@ font-size: 25px;
     justify-content: center;
     transform: translate(0 -300px);
 }
+
+/* footer styles */
+
 .footer-1{
     margin-left: 150px;
     margin-top: 181px;
@@ -208,6 +207,9 @@ font-size: 25px;
 font-size: 20px;
 color: #424242;
 } 
+
+/* media query */
+
 @media screen and (max-width: 576px) {
     .banner-image div img{
         width: 100%;
