@@ -1,0 +1,242 @@
+/* header styles */
+
+    
+
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
+}
+/* nav bar styles */
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-top: 0;
+
+}
+.button-header a{
+    padding-right: 30px;
+}
+
+/* banner styles */
+.banner-title{
+    display: flex;
+    justify-content: center;
+    
+}
+.banner-title div{
+    width: 862px;
+}
+.banner-title div h1{
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+}
+.banner-title div p{
+    text-align: center;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.banner-button{
+    display: flex;
+    justify-content: center;
+}
+.banner-button button{
+    width: 180px;
+    height: 64px;
+    color: white;
+    font-weight: 600;
+font-size: 20px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: 0;
+}
+/* banner image style */
+.banner-image{
+    
+    display: flex;
+    justify-content: center;
+}
+.banner-image div img{
+    width: 1440px;
+    height: 700px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+
+}
+/* main section  */
+main section{
+    margin-top: 130px;
+}
+.team-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 73px;
+   
+}
+.team{
+    
+}
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    align-items: center;
+}
+.team-image{
+    height: 342px;
+    width: 342px;
+}
+.team-info button{
+    width: 180px;
+    height: 64px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: 0;
+}
+
+.team-info section h1{
+    font-weight: 500;
+font-size: 45px;
+}
+.team-info section h1 b{
+    color: #FF900E;
+}
+.team-info-p{
+    color: #727272;
+}
+.info{
+    width: 586px;
+height: 171px;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+padding: 30px;
+}
+.info-text{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+}
+.features h1{
+    font-weight: 700;
+font-size: 45px;
+}
+.features-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.features-button{
+    width: 342px;
+height: 200px;
+text-align: center;
+background-color: #FF900E;
+left: 880px;
+top: 3104px;
+border: 0;
+border-radius: 8px;
+color:white ;
+}
+.features-button b{
+    font-weight: 700;
+    font-size: 65px;
+    
+}
+.features-button span{
+    font-weight: 500;
+font-size: 25px;
+
+}
+.button-1{
+    display: flex;
+    justify-content: center;
+}
+.footer-1{
+    margin-left: 150px;
+    margin-top: 181px;
+}
+.footer-1 h2{
+    font-weight: 700;
+            font-size: 45px;
+}
+.footer-3 div{
+    text-align: center;
+    margin-top: 181px;
+}
+.footer-2{
+   
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    margin-top: 181px;
+    }
+ .footer-3{
+    margin-left: 150px;
+    margin-top: 181px;
+ } 
+.sponsor{
+   display: flex;
+   margin-top: 181px;
+    justify-content: space-around;
+}
+.f-box{
+    background-color: #FFF4E7;;
+    width: 1200px;
+    height: 50px;
+    padding: 15px 300px;
+    margin: 100px 160px 100px 160px;
+    
+} 
+@media screen and (max-width: 576px) {
+    .banner-image div img{
+        width: 390px;
+        height: 700px;
+        margin-top: 50px;
+        margin-bottom: 45px;
+    }
+    .team-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 73px;
+       
+    }
+    .team-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+        align-items: center;
+    }
+    
+    .features-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .features img{
+        width: 390px;
+    }
+    .sponsor{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 181px;
+         justify-content: space-around;
+     }
+     .f-box{
+        background-color: #FFF4E7;;
+        width: auto;
+        height: auto;
+        margin-left: 0;
+        
+    }
+        
+       
+}
